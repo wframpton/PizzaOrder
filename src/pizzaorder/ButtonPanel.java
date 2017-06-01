@@ -32,7 +32,7 @@ public class ButtonPanel extends JPanel {
             b.setActionCommand(option);
             add(b);
             group.add(b);
-            b.setSelected(option == options[0]);
+            b.setSelected(option.equals(options[0]));
         }
     }
 
